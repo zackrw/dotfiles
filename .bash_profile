@@ -32,8 +32,7 @@ fi
 
 
 # Give some nice prompt, with git inside of it
-export PS1="\033[32mzack \e[0;33m\w\e[0;91m\$(__git_ps1 ' (%s)')\e[0;96m \$\e[0m "
-
+export PS1="\033[32mzack \e[0;33m\W\e[0;91m\$(__git_ps1 ' (%s)')\e[0;96m \$\e[0m "
 export TERM=xterm-256color
 
 
@@ -47,15 +46,4 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
 #add colors
 export CLICOLOR=1
 
-
-#ensure rvm imported
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
-if [ -f "$HOME/.bashrc" ]; then
-	  source $HOME/.bashrc
-	fi
-
-	# Setting PATH for JRuby 1.6.7.2
-	# The orginal version is saved in .bash_profile.jrubysave
-	PATH="${PATH}:/Library/Frameworks/JRuby.framework/Versions/Current/bin"
-	export PATH
 

@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/zack/Desktop/programming/brewster/app'
+let g:netrw_dirhist_2='/Users/zack/Desktop/programming/brewster/app/mapreduce'
+let g:netrw_dirhist_3='/Users/zack/Desktop/programming/brewster/app/mapreduce/erlang'
+let g:netrw_dirhist_4='/Users/zack/Desktop/programming/brewster'
+let g:netrw_dirhist_5='/Users/zack/Desktop/programming/brewster/spec'
+let g:netrw_dirhist_6='/Users/zack/Desktop/programming/brewster/spec/mapreduce'
+let g:netrw_dirhist_7='/Users/zack/Desktop/programming/node-ldapjs'
