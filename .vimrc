@@ -35,6 +35,7 @@ vnoremap / /\v
 "ignore case when all lower case
 set ignorecase
 set smartcase
+set pastetoggle=<F2>
 
 "deal with one line wrapping to multiple lines
 nnoremap j gj
@@ -66,6 +67,8 @@ noremap  <Right> ""
 noremap! <Right> <Esc>
 
 au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%80v.\+', -1)
+
+au BufNewFile,BufRead *.ejs set filetype=html
 
 
 set background=dark
