@@ -47,3 +47,11 @@ export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Home/
 export CLICOLOR=1
 
 
+# {{{
+# Node Completion - Auto-generated, do not touch.
+shopt -s progcomp
+for f in $(command ls ~/.node-completion); do
+  f="$HOME/.node-completion/$f"
+  test -f "$f" && . "$f"
+done
+# }}}

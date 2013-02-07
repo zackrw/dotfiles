@@ -17,6 +17,7 @@ if !exists("main_syntax")
   endif
   let main_syntax = 'javascript'
 endif
+let b:current_syntax = "cel"
 
 "" Drop fold if it is set but VIM doesn't support it.
 let b:javascript_fold='true'
