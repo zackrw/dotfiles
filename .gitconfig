@@ -7,7 +7,7 @@
 	graph = log --graph --pretty=\"format:%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset\"
 [core]
 [github]
-	user = xaq2892
+	user = zackrw
 	token = 7b8d8823bbd2ad2b51e24f4af5e04996
 [merge]
 	tool = vimdiff
